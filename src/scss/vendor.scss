@@ -1,0 +1,11 @@
+//@import "./vendor/normalize";
+@import "./vendor/nullstyle";
+
+// стили для свайпера 
+//@import "../../node_modules/swiper/swiper-bundle.min";
+
+// стили для слайдера
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+
+// стили для попапа
+@import "../../node_modules/@fancyapps/ui/src/Fancybox/fancybox.scss";

@@ -1,0 +1,29 @@
+.new-collection {
+    text-align: center;
+    padding: 45px 0 35px;
+
+    &__title {
+        color: $black-title;
+        font-size: 36px;
+        line-height: 51px;
+        padding-bottom: 25px;
+        position: relative;
+        @extend %title-font;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 250px;
+            height: 1px;
+            bottom: 20%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background-color: #6d7278;
+        }
+    }
+
+    &__text {
+        max-width: 730px;
+        margin: 0 auto 30px;
+    }
+}

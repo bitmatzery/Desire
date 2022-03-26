@@ -1,0 +1,26 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "global";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/footer";
+@import "./components/slider";
+@import "./components/new-collection";
+@import "./components/collection";
+@import "./components/decor";
+@import "./components/works-path";
+@import "./components/gallery";
+@import "./components/blog-box";
+@import "./components/breadcrumbs";
+@import "./components/about-prev";
+@import "./components/inspiration";
+@import "./components/gallery-page";
+@import "./components/map";
+@import "./components/collection-slider";
+@import "./components/blog-block";
+@import "./components/aside";
+@import "./components/blog-one-block";
+@import "./components/media";

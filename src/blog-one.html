@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  @include('partials/header.html')
+  <main class="main wrapper">
+    @include('partials/breadcrumbs.html')
+
+    <!-- Для отдельных компонентов на общей стр: aside и blog-block -->
+    <section class="blog blog-one">
+      <div class="container">
+        <div class="blog__inner">
+          @include('partials/blog-one-block.html')
+          @include('partials/aside.html')
+        </div>
+      </div>
+    </section>
+  </main>
+  @include('partials/footer.html')
+</body>
+</html>

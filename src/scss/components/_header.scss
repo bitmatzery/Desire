@@ -1,0 +1,129 @@
+.header {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+
+    &__btn {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+
+    &__btn-menu {
+        display: none;
+    }
+
+}
+
+.menu {
+    padding-right: 15px;
+
+    &__list {
+        display: flex;
+        //margin-right: 20px
+    }
+
+    &__list-item {
+        padding-left: 35px;
+        padding-right: 45px;
+
+    }
+
+    &__list-link {
+        @extend %title-font;
+        color: rgba($color: #545656, $alpha: 0.9);
+        line-height: 22px;
+    }
+
+    &__list-link--active {
+        padding-bottom: 4px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            border-radius: 1px;
+            background-color: rgba($black-title, .7);
+        }
+    }
+}
+
+.logo-link {
+    margin: 0 auto;
+}
+
+.rightside-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 11;
+    max-width: 694px;
+    width: 100%;
+    background-color: $white;
+    padding-top: 40px;
+    box-shadow: -2px 3px 17px 0px #000;
+    transition: all .5s;
+    &.rightside-menu--close{
+        transform: translateX(500%);
+    }
+
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+
+    &__content {
+        text-align: center;
+        max-width: 485px;
+        margin: 0 auto;
+
+    }
+
+    &__logo {
+        margin-bottom: 40px;
+        display: inline-block;
+    }
+
+    &__title {
+        color: $black-title;
+        font-family: $font-family-title;
+        font-size: 36px;
+        line-height: 51px;
+        position: relative;
+        margin-bottom: 17px;
+        padding-bottom: 17px;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            max-width: 252px;
+            margin: 0 auto;
+            height: 1px;
+            background: #6d7278;
+        }
+    }
+
+    &__text {
+        margin-bottom: 75px;
+    }
+
+    &__images {
+        max-width: 485px;
+    }
+}
