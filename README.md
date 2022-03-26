@@ -1,4 +1,4 @@
-# Gulp - сборка MaxGraph
+# Desire
 
 > Используется Gulp 4 и Webpack 5
 
