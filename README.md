@@ -1,7 +1,9 @@
 # Desire
+
 Desire on basic configuration of Webpack 5 & Gulp 4.
 
 ## Start using for a new project
+
 `git clone <this repo>` - clone the repo
 Run npm i to install dependencies
 
@@ -29,7 +31,7 @@ Run commands in terminal:
 │   ├── scss                      # Site styles (sass preprocessor in scss syntax)
 │   │   └── main.scss             # File for connecting styles
 │   │   └── vendor.scss           # The file for connecting library styles from the vendor folder
-│   │   └── _fonts.scss           # File for connecting fonts 
+│   │   └── _fonts.scss           # File for connecting fonts
 │   │   └── _mixins.scss          # File for connecting mixins from the mixins folder
 │   │   └── _vars.scss            # File for writing css or scss variables
 │   │   └── _global.scss          # File for writing global styles
@@ -44,9 +46,10 @@ Run commands in terminal:
 │   └── index.html                # Main html file
 └── .ecrc                         # Package settings file editorconfig-checker (excludes unnecessary folders)
 └── .editorconfig                 # File with code formatting settings
-└── .htmlhintrc					  #	TMLHint validator settings file
-└── .htmlhintrc					  #	Prettier settings file 
+└── .htmlhintrc                   # TMLHint validator settings file
+└── .prettierrc                   # Prettier settings file
 └── .stylelintrc                  # Stylelint settings file
 └── gulpfile.js                   # Gulp settings file
 └── package.json                  # File with build settings and installed packages
 └── README.md                     # Assembly documentation
+```
